@@ -1,39 +1,37 @@
-# Number-Guessing-Game
+Number Guessing Game
 
-## About the Project
-The Number Guessing Game is a simple Python CLI game where the computer selects a random number between 1 and 100, and the player has to guess it. The player can choose between three difficulty levels, each offering a different number of chances to guess the correct number.
+Welcome to the Number Guessing Game, a simple command-line Python game where the player has to guess a randomly generated number between 1 and 100. The game provides feedback on whether the guessed number is too high or too low. Players have a limited number of attempts based on the difficulty level they choose.
 
-### Features
-- Three difficulty levels:
-  - Easy: 12 chances
-  - Medium: 8 chances
-  - Hard: 4 chances
-- Provides hints whether the guessed number is too high or too low.
-- Option to play again after each game.
+Features:
 
----
+Choose between three difficulty levels: Easy (12 chances), Medium (8 chances), and Hard (4 chances).
+The game gives hints on whether the guessed number is greater or less than the correct number.
+Option to play again after a correct guess or when the attempts are over.
 
-## Getting Started
+How to Play:
 
-### Prerequisites
-You need to have Python 3 installed on your system. You can download it from [python.org](https://www.python.org/).
+1. Select a difficulty level:
+  Easy: 12 chances to guess.
+  Medium: 8 chances to guess.
+  Hard: 4 chances to guess.
+2. Enter a guess between 1 and 100.
+3. The game will inform you whether your guess is too high or too low.
+4. Once you guess the correct number, you win! You can also choose to play again after finishing a round.
 
----
+Requirements:
 
-### How to Play
+Python 3.x
+Getting Started:
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/number-guessing-game.git
-2. Navigate to the project directory:
-cd number-guessing-game
+git clone https://github.com/Cmd-A-sys/Number-Guessing-Game.git
 
-3. Run the game:
-python game.py
+2.Navigate to the project folder:
+cd Number-Guessing-Game
 
-4. Follow the on-screen instructions:
-Choose a difficulty level: Easy, Medium, or Hard.
-Enter your guesses to figure out the number the computer has selected.
-The game will tell you if your guess is too high or too low.
-If you run out of chances, the game reveals the correct number.
+3.Run the game:
+python main.py
 
-5. After the game ends, you can choose to play again or quit.
+Credits:
+
+This project is inspired by the roadmap provided on https://roadmap.sh/projects/number-guessing-game, which helped guide the development of this game.
